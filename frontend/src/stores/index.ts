@@ -1,4 +1,4 @@
-import EditorStore from '@/stores/editor-store'
+import useEditorStore from '@/stores/editor-store'
 
 export type { EditorState } from '@/stores/editor-store'
-export { EditorStore }
+export { useEditorStore }

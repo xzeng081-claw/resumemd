@@ -11,8 +11,8 @@ export interface EditorState {
 }
 
 const useEditorStore = create<EditorState>((set, get) => ({
-  content: '# 我的简历\n\n开始编辑你的简历...',
-  title: '未命名简历',
+  content: '# My Resume\n\nStart writing your resume...',
+  title: 'Untitled Resume',
   isSaving: false,
   lastSaved: null,
   
@@ -29,3 +29,4 @@ const useEditorStore = create<EditorState>((set, get) => ({
 }))
 
 export default useEditorStore
+
